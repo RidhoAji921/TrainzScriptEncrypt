@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.IO;
 
 namespace TrainzEncrypt
 {
@@ -42,19 +43,25 @@ namespace TrainzEncrypt
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            folderBrowserDialog1.InitialDirectory = "C:\\";
-            DialogResult result = folderBrowserDialog1.ShowDialog();
+            /*folderBrowserDialog1.InitialDirectory = "C:\\";
+            DialogResult result = folderBrowserDialog1.ShowDialog();*/
+            openTrainzUtil.Filter = "TrainzUtil|TrainzUtil.exe";
+            openTrainzUtil.Title = "Pilih Trainz Util";
+            openTrainzUtil.RestoreDirectory = true;
+            DialogResult result = openTrainzUtil.ShowDialog();
             if (result == DialogResult.OK)
             {
-                string folderPath = folderBrowserDialog1.SelectedPath + "\\bin\\TrainzUtil";
+                string folderPathWithExtension = openTrainzUtil.FileName;
+                string folderPath = folderPathWithExtension.Replace(".exe", "");
                 TxtBox_PathFolderTrainz.Text = folderPath;
-                TrainzPath= folderPath;
+                TrainzPath = folderPath;
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             openFileDialog1.Filter = "game script (*.gs)|*.gs";
+            openFileDialog1.Title = "Pilih script";
             openFileDialog1.RestoreDirectory = true;
             DialogResult result = openFileDialog1.ShowDialog();
             if (result == DialogResult.OK)
