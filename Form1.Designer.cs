@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             TxtBox_PathFolderTrainz = new TextBox();
             button1 = new Button();
@@ -124,6 +125,7 @@
             Controls.Add(button1);
             Controls.Add(TxtBox_PathFolderTrainz);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "GS to GSE";
             ResumeLayout(false);
