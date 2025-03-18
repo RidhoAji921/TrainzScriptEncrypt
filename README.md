@@ -6,8 +6,8 @@ Aplikasi dikembangkan menggunakan bahasa C# dengan framework .NET dan menggunaka
 
 ## Cara penggunaan
 1. Download file dengan versi terbaru yang ada pada halaman release, terdapat 2 versi yaitu FD dan SC<br />
-   -Gunakan FD jika anda memiliki .NET Runtime terpasang pada PC anda (.NET Runtime dapat didownload di [dotnet.microsoft.com](https://dotnet.microsoft.com/id-id/download))<br />
-   -Gunakan SC jika anda tidak memiliki .NET Runtime
+   - Gunakan FD jika anda memiliki .NET Runtime terpasang pada PC anda (.NET Runtime dapat didownload di [dotnet.microsoft.com](https://dotnet.microsoft.com/id-id/download))<br />
+   - Gunakan SC jika anda tidak memiliki .NET Runtime
 2. Ekstrak file zip yang sudah didownload di folder yang anda suka
 3. Buka `TrainzEncrypt.exe`
 4. Pada pertama kali dibuka, kolom untuk TrainzUtil akan kosong, klik `search` untuk mengarahkan ke TrainzUtil yang ada pada PC anda
