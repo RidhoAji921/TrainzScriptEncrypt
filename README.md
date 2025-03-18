@@ -24,7 +24,7 @@ Aplikasi dikembangkan menggunakan bahasa C# dengan framework .NET dan menggunaka
    ![image](https://github.com/user-attachments/assets/e66908c6-8b43-4216-87b8-931761c0f79e)<br />
    ![tutor6](https://github.com/RidhoAji921/TrainzScriptEncrypt/assets/95759011/9a926096-c3c3-4048-8ec9-7533e302971d)<br />
    ***Beberapa versi trainz harus dalam keadaan terbuka untuk melakukan enkripsi**
-8. Jika tidak ada masalah file .gse dari file script yang sudah anda enkripsi akan muncul di folder tempat anda menyimpan file .gs
+8. Jika tidak ada masalah file .gse dari file script yang sudah anda enkripsi akan muncul di folder tempat anda menyimpan file .gs<br />
    <img width="540" alt="tutor7" src="https://github.com/RidhoAji921/TrainzScriptEncrypt/assets/95759011/fea153f6-d460-4035-b937-cad160afea66">
 
 **Facebook Page: [Gumilang Trainz Content](https://www.facebook.com/GumilangTrainzContent).**
